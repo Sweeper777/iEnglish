@@ -1,0 +1,75 @@
+
+/* Class = "UIBarButtonItem"; title = "编辑"; ObjectID = "6IZ-9I-UWk"; */
+"6IZ-9I-UWk.title" = "編輯";
+
+/* Class = "UILabel"; text = "小"; ObjectID = "CDR-kz-Ycz"; */
+"CDR-kz-Ycz.text" = "小";
+
+/* Class = "UITableViewSection"; headerTitle = "语调"; ObjectID = "ESK-h2-urC"; */
+"ESK-h2-urC.headerTitle" = "語調";
+
+/* Class = "UILabel"; text = "低"; ObjectID = "Ill-Hz-xxx"; */
+"Ill-Hz-xxx.text" = "低";
+
+/* Class = "UITextField"; placeholder = "输入要聆听的句子或词语"; ObjectID = "K7A-Nj-Umn"; */
+"K7A-Nj-Umn.placeholder" = "輸入要聆聽的句子或詞語";
+
+/* Class = "UILabel"; text = "高"; ObjectID = "KHm-a6-ltQ"; */
+"KHm-a6-ltQ.text" = "高";
+
+/* Class = "UITabBarItem"; title = "听一听"; ObjectID = "N1b-2c-tiy"; */
+"N1b-2c-tiy.title" = "聽一聽";
+
+/* Class = "UITableViewSection"; headerTitle = "语速"; ObjectID = "OC9-bg-Y0d"; */
+"OC9-bg-Y0d.headerTitle" = "語速";
+
+/* Class = "UILabel"; text = "快"; ObjectID = "P4f-BT-f3R"; */
+"P4f-BT-f3R.text" = "快";
+
+/* Class = "UINavigationItem"; title = "播放列表"; ObjectID = "QJc-XA-p7u"; */
+"QJc-XA-p7u.title" = "播放列表";
+
+/* Class = "UITableViewSection"; headerTitle = "声音"; ObjectID = "SRA-Q7-1jS"; */
+"SRA-Q7-1jS.headerTitle" = "聲音";
+
+/* Class = "UINavigationItem"; title = "聆听"; ObjectID = "TWX-bY-qGl"; */
+"TWX-bY-qGl.title" = "聆聽";
+
+/* Class = "UITableViewSection"; headerTitle = "音量"; ObjectID = "Twb-Qr-luv"; */
+"Twb-Qr-luv.headerTitle" = "音量";
+
+/* Class = "UITabBarItem"; title = "设置"; ObjectID = "fLq-yF-na8"; */
+"fLq-yF-na8.title" = "設定";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "i3M-P3-QPR"; */
+"i3M-P3-QPR.title" = "Title";
+
+/* Class = "UILabel"; text = "慢"; ObjectID = "i5v-wV-Nse"; */
+"i5v-wV-Nse.text" = "慢";
+
+/* Class = "UILabel"; text = "大"; ObjectID = "lIJ-LN-KBj"; */
+"lIJ-LN-KBj.text" = "大";
+
+/* Class = "UIButton"; normalTitle = "读来听听"; ObjectID = "nVa-Dp-zSh"; */
+"nVa-Dp-zSh.normalTitle" = "讀來聽聽";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "ohZ-s4-3OS"; */
+"ohZ-s4-3OS.title" = "設定";
+
+/* Class = "UISegmentedControl"; qFa-Xy-kJ9.segmentTitles[0] = "英式英语"; ObjectID = "qFa-Xy-kJ9"; */
+"qFa-Xy-kJ9.segmentTitles[0]" = "英式英文";
+
+/* Class = "UISegmentedControl"; qFa-Xy-kJ9.segmentTitles[1] = "美式英语"; ObjectID = "qFa-Xy-kJ9"; */
+"qFa-Xy-kJ9.segmentTitles[1]" = "美式英文";
+
+/* Class = "UINavigationItem"; title = "加入播放列表"; ObjectID = "tvn-wI-ZHF"; */
+"tvn-wI-ZHF.title" = "加入播放列表";
+
+/* Class = "UITabBarItem"; title = "播放列表"; ObjectID = "wtk-OY-yKP"; */
+"wtk-OY-yKP.title" = "播放列表";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "xmh-OZ-oEC"; */
+"xmh-OZ-oEC.title" = "取消";
+
+/* Class = "UIBarButtonItem"; title = "编辑"; ObjectID = "yGp-xt-mrm"; */
+"yGp-xt-mrm.title" = "編輯";
