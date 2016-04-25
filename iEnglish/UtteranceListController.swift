@@ -96,7 +96,7 @@ class UtteranceListController: UITableViewController, AVSpeechSynthesizerDelegat
             return
         }
         
-        nowPlayingIndex++
+        nowPlayingIndex += 1
         if nowPlayingIndex >= playlist.utterrances!.count {
             isPlaying = false
             playStopBtn.image = UIImage(named: "play")
