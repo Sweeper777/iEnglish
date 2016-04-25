@@ -76,6 +76,8 @@ class UtteranceListController: UITableViewController, AVSpeechSynthesizerDelegat
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        synthesizer.stopSpeakingAtBoundary(.Immediate)
+        synthesizer.speakUtterance(UserSettings.getPrefUtterance((tableView.cellForRowAtIndexPath(indexPath)?.textLabel!.text)!))
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
 
@@ -98,9 +100,16 @@ class UtteranceListController: UITableViewController, AVSpeechSynthesizerDelegat
         
         nowPlayingIndex += 1
         if nowPlayingIndex >= playlist.utterrances!.count {
-            isPlaying = false
-            playStopBtn.image = UIImage(named: "play")
-            nowPlayingIndex = 0
+            if UserSettings.prefRepeating {
+                nowPlayingIndex = 0
+                let utterance = UserSettings.getPrefUtterance((playlist.utterrances![nowPlayingIndex] as! Utterance).string!)
+                utterance.postUtteranceDelay = 0.3
+                synthesizer.speakUtterance(utterance)
+            } else {
+                isPlaying = false
+                playStopBtn.image = UIImage(named: "play")
+                nowPlayingIndex = 0
+            }
         } else {
             let utterance = UserSettings.getPrefUtterance((playlist.utterrances![nowPlayingIndex] as! Utterance).string!)
             utterance.postUtteranceDelay = 0.3

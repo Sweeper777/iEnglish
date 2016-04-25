@@ -49,6 +49,11 @@ class UserSettings {
         }
     }
     
+    static var prefRepeating: Bool {
+        let repeating = NSUserDefaults.standardUserDefaults().boolForKey("repeating")
+        return repeating
+    }
+    
     static func getPrefUtterance(string: String) -> AVSpeechUtterance {
         let utterance = AVSpeechUtterance(string: string)
         utterance.pitchMultiplier = UserSettings.prefPitch

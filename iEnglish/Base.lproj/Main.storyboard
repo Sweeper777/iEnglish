@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DOv-28-OVR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DOv-28-OVR">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
@@ -411,6 +411,39 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="xkx-hd-v1X">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="EId-hC-MF2">
+                                        <rect key="frame" x="0.0" y="596" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EId-hC-MF2" id="Vs6-uI-qzp">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X3V-V1-hPD">
+                                                    <rect key="frame" x="543" y="6" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="repeatingChanged:" destination="EUg-2k-4jx" eventType="valueChanged" id="kjk-xt-cQc"/>
+                                                    </connections>
+                                                </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="循环播放列表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuA-gM-Em5">
+                                                    <rect key="frame" x="8" y="14" width="102" height="15"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="RuA-gM-Em5" firstAttribute="leading" secondItem="Vs6-uI-qzp" secondAttribute="leadingMargin" id="HJs-vQ-hvc"/>
+                                                <constraint firstItem="X3V-V1-hPD" firstAttribute="trailing" secondItem="Vs6-uI-qzp" secondAttribute="trailingMargin" id="SQc-YG-o1R"/>
+                                                <constraint firstItem="X3V-V1-hPD" firstAttribute="centerY" secondItem="RuA-gM-Em5" secondAttribute="centerY" id="bRo-1G-whW"/>
+                                                <constraint firstItem="X3V-V1-hPD" firstAttribute="centerY" secondItem="Vs6-uI-qzp" secondAttribute="centerY" id="cgB-9F-QDG"/>
+                                                <constraint firstItem="RuA-gM-Em5" firstAttribute="top" secondItem="Vs6-uI-qzp" secondAttribute="topMargin" constant="6" id="d2q-YH-nXl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="EUg-2k-4jx" id="cYb-5o-bxh"/>
@@ -424,6 +457,7 @@
                     <connections>
                         <outlet property="pitchSlider" destination="27e-K3-vKY" id="N8a-hO-weQ"/>
                         <outlet property="rateSlider" destination="yqo-Wr-Lq6" id="WP8-kB-Usd"/>
+                        <outlet property="repeatingSwitch" destination="X3V-V1-hPD" id="7be-3W-V5D"/>
                         <outlet property="voiceSelection" destination="qFa-Xy-kJ9" id="9C0-S8-pmT"/>
                         <outlet property="volumeSlider" destination="KiU-w7-LcD" id="Ae7-L2-Sz5"/>
                     </connections>

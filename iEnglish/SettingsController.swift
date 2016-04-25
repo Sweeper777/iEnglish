@@ -6,6 +6,7 @@ class SettingsController: UITableViewController {
     @IBOutlet var pitchSlider: UISlider!
     @IBOutlet var volumeSlider: UISlider!
     @IBOutlet var voiceSelection: UISegmentedControl!
+    @IBOutlet var repeatingSwitch: UISwitch!
     
     override func viewDidLoad() {
         automaticallyAdjustsScrollViewInsets = false
@@ -25,6 +26,8 @@ class SettingsController: UITableViewController {
         case .British:
             voiceSelection.selectedSegmentIndex = 0
         }
+        
+        repeatingSwitch.on = UserSettings.prefRepeating
     }
 
     @IBAction func rateChanged(sender: UISlider) {
@@ -41,5 +44,9 @@ class SettingsController: UITableViewController {
     
     @IBAction func voiceChanged(sender: UISegmentedControl) {
         NSUserDefaults.standardUserDefaults().setInteger(sender.selectedSegmentIndex + 1, forKey: "speechVoice")
+    }
+    
+    @IBAction func repeatingChanged(sender: UISwitch) {
+        NSUserDefaults.standardUserDefaults().setBool(sender.on, forKey: "repeating")
     }
 }
