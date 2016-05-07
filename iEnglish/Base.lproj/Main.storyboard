@@ -414,7 +414,7 @@
                             <tableViewSection id="xkx-hd-v1X">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="EId-hC-MF2">
-                                        <rect key="frame" x="0.0" y="596" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="595.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EId-hC-MF2" id="Vs6-uI-qzp">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>

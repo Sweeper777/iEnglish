@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-iEnglishTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-iEnglishUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PureLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,20 +29,40 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Toast.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7760482616D398E5928B4175FCF4FB37</key>
+		<key>1685181AF7BB40552EEB5F6D27DAF747</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C2C70E97EA66F7E02147B833A0B546D7</key>
+		<key>5CF96D4E19B852CFF9EA38B857ABEE77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D43FC66F2B719E0D03DD763F819BF221</key>
+		<key>68F6AA052025252F56F185B0F05A7657</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B92AE482C1CC5AAC9CE75C373EC68FF9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED82E066AAF86C0BACC0D7299C01F7FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD65CE3AC2D542B1016CF9488B05F485</key>
 		<dict>
 			<key>primary</key>
 			<true/>

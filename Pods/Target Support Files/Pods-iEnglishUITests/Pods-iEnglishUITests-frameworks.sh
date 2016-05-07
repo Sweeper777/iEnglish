@@ -82,14 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/PureLayout/PureLayout.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SwiftyButton/SwiftyButton.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Toast/Toast.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/PureLayout/PureLayout.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SwiftyButton/SwiftyButton.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Toast/Toast.framework"
-fi
