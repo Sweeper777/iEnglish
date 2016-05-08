@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A5B20C11CDE249F00EE0050 /* Toast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5B20C01CDE249F00EE0050 /* Toast.framework */; };
+		5A5B20C31CDE2E6A00EE0050 /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5B20C21CDE2E6A00EE0050 /* Toast_Swift.framework */; };
 		5AC66A661C6600F60081F0B9 /* UtteranceListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC66A651C6600F60081F0B9 /* UtteranceListController.swift */; };
 		5AC66A6A1C661DC80081F0B9 /* AddToPlayListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC66A691C661DC80081F0B9 /* AddToPlayListController.swift */; };
 		5AC66A6C1C662CC80081F0B9 /* DataPasserNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC66A6B1C662CC80081F0B9 /* DataPasserNavController.swift */; };
@@ -56,6 +56,7 @@
 		3A24412540DD34246D511189 /* Pods-iEnglishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEnglishTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iEnglishTests/Pods-iEnglishTests.release.xcconfig"; sourceTree = "<group>"; };
 		4712C9ECD29D68D086379818 /* Pods-iEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iEnglish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iEnglish/Pods-iEnglish.debug.xcconfig"; sourceTree = "<group>"; };
 		5A5B20C01CDE249F00EE0050 /* Toast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Toast.framework; path = "Pods/../build/Debug-iphoneos/Toast/Toast.framework"; sourceTree = "<group>"; };
+		5A5B20C21CDE2E6A00EE0050 /* Toast_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Toast_Swift.framework; path = "../../Library/Developer/Xcode/DerivedData/iEnglish-ekfgwfcqilowbtgdejimeseeunhp/Build/Products/Debug-iphonesimulator/Toast-Swift/Toast_Swift.framework"; sourceTree = "<group>"; };
 		5AC66A651C6600F60081F0B9 /* UtteranceListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtteranceListController.swift; sourceTree = "<group>"; };
 		5AC66A691C661DC80081F0B9 /* AddToPlayListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToPlayListController.swift; sourceTree = "<group>"; };
 		5AC66A6B1C662CC80081F0B9 /* DataPasserNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPasserNavController.swift; sourceTree = "<group>"; };
@@ -96,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A5B20C11CDE249F00EE0050 /* Toast.framework in Frameworks */,
+				5A5B20C31CDE2E6A00EE0050 /* Toast_Swift.framework in Frameworks */,
 				5AFEAE441CDCDCA70040C48D /* SwiftyButton.framework in Frameworks */,
 				F4BDE3072CBF4A160F836C1E /* Pods_iEnglish.framework in Frameworks */,
 			);
@@ -189,6 +190,7 @@
 		B5CA86FB9BE29E3057CD599D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A5B20C21CDE2E6A00EE0050 /* Toast_Swift.framework */,
 				5A5B20C01CDE249F00EE0050 /* Toast.framework */,
 				5AFEAE431CDCDCA70040C48D /* SwiftyButton.framework */,
 				21C49072DD51961DF0B62357 /* Pods_iEnglish.framework */,

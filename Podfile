@@ -5,7 +5,7 @@ use_frameworks!
 
 target 'iEnglish' do
     pod 'SwiftyButton'
-    pod 'Toast'
+    pod 'Toast-Swift'
 end
 
 target 'iEnglishTests' do

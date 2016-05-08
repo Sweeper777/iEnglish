@@ -1,5 +1,6 @@
 import UIKit
 import AVFoundation
+import Toast_Swift
 
 class ListenViewController: UITableViewController, UITextFieldDelegate {
     let synthesizer = AVSpeechSynthesizer()
@@ -31,6 +32,12 @@ class ListenViewController: UITableViewController, UITextFieldDelegate {
     }
     
     @IBAction func unwindToMain(segue: UIStoryboardSegue) {
+        if let vc = segue.sourceViewController as? AddToPlayListController {
+            tableView.visibleCells.first?.makeToast(String(format: NSLocalizedString("成功将 \"%@\" 加入播放列表", comment: ""), vc.stringToAdd), duration: 3, position: .Bottom, title: nil, image: UIImage(named: "tick")!, style: nil, completion: nil)
+        }
+    }
+    
+    @IBAction func unwindCancel(segue: UIStoryboardSegue) {
         
     }
     

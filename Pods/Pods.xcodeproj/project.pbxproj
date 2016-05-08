@@ -7,151 +7,159 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EE55B6A8654770E0DE80387B92C34F3 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7E0E93C5D0ED40AED1C3CF4914771 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1A278820D6BCE859C1C6753706BA0C59 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E76AADC25DCBE1265A130C99B1219AD9 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A596889E3B4F049C04EFD21CAB87319 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 721CF0C18FF9C7566FAFD44AB3CD209F /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CA96A2213EB85BD4944BEB2BFD5FB75 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F573B728BFBE082D6EFB73FDEF59C3DD /* PureLayout-dummy.m */; };
-		2463467AC85536BF8D93024EC1E86EB1 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F62A5B76992F2E0E18D14638CD474 /* Toast-dummy.m */; };
-		2B9E8360A0E61A3EF865E79DC809D16A /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F99E86968C36C5D485B63CF6DE6A345C /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD2A8FF9FBBBB695D944A69E2F9586A /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B036EAC26E8E17854DDC3235FB35E8F6 /* ALView+PureLayout.m */; };
+		18BD7DFF5559F5A66B24C16BEAC5DF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
+		1B1BE297F0CD3089CDEFF1C4C9BCFA40 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3EE63125ECA03B345F526B9CF217A /* PureLayout.framework */; };
+		1E3DA6AE57EFE94DEAA51D48A8533C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
+		28B127C5B873BC5084968B6E40D3F018 /* Pods-iEnglish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838791FA0B0429616ECC397B3D8B2876 /* Pods-iEnglish-dummy.m */; };
+		2994A744315B26D0BD538217E4946470 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A5E5C8893E20A051B4C0048CB18A12 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0EF3853DD8435CC40504E871FC2315 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F708575BAEF6417379D7731BA179A87 /* Toast-Swift-dummy.m */; };
 		2EA84409FC3FB5C340342A3C02BD4690 /* Pods-iEnglishUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E09AFDE2BB3DFCCB42722B97CB7B8345 /* Pods-iEnglishUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30C6A1249B0BB8C0F72365167C4303E4 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A50C39F6EC5C4CD0259565E5EB0964C /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		378F3AACED7AE421A935AA037C9D9BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
-		3DF661F0953F8B49DBF80FFABDFF8BF5 /* SwiftyButton+ResizableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C88748508AD3D7666CAC75398861A5 /* SwiftyButton+ResizableImage.swift */; };
-		3F0C2838C8477E0AF61026688D6BCFA4 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F46E90561DC298F1E79CB3F4CD8E16 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BA85FCF739ED52832B68D62EB3E9E1A /* Pods-iEnglishTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 560C042FDB53F8E3034BA9EAEA534738 /* Pods-iEnglishTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52DEC6383BE3BBD4ACE302D40AD3E480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
-		5A88AF9238D2634BF912F987DCD975E1 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3EE63125ECA03B345F526B9CF217A /* PureLayout.framework */; };
-		6005157BDB778F5E756D82941EA675AD /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6018548A09A46EF50DB6E545671DC5A6 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5110FA1670353C2BDF0F977FB5A9B678 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1DD7192D3E4CE9664C2FEB3C678872 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567B9C05DA89FA0A21C0182AEDD86146 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A641383D71211378FD24B0D345BF25B4 /* NSArray+PureLayout.m */; };
 		654DC097521701A706E9B2FE7CE882D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
-		74693E3BCB677E04C879F42BD1988C99 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 03595F554C537F56D8D7FD2FFFDB7543 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80356D1F92E93A4A4CB220072647ED59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
+		72F444BC4006B93DEC14A4B9DF1DC867 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADE166DB80D75A68C69A02DF6D91134 /* QuartzCore.framework */; };
+		83D158668A8A302BADF4EE0F8D2ECD5A /* SwiftyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E0492DFB50F139A1BEEDD99B51637 /* SwiftyButton.swift */; };
+		847A19B011E3672EA7D982DB18848C9F /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BD921002D00FA77EC95C59C0D5AEF15A /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8639266E59679FE6B1B9258CF7A17701 /* Pods-iEnglishUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA34C1B15964944C451E8CAD9EC13144 /* Pods-iEnglishUITests-dummy.m */; };
-		8B2024A9226B533473F2D473FFE48242 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6672DD374B6D7657266A5F9BDB154AD /* NSArray+PureLayout.m */; };
-		9133F580739DF0C99CF89B425761DBFA /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89865AC4000E9BE2E6171C68B88A43DD /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A8AA6861F5EC60C02D27BE824BF1311 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B41D0C78051B38BB8435451247089B36 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F523DC737D5389BA0C94D3ABF5F0F07 /* Pods-iEnglish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 838791FA0B0429616ECC397B3D8B2876 /* Pods-iEnglish-dummy.m */; };
-		AAE57FB74D650949DD733C91D3CE6D72 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CF8A033B1CFCCE65DC1658BFC94088 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885E5A90EB926183ECCB62111B1D703A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 507425A27530F6AE4A816D0E213D31EB /* NSLayoutConstraint+PureLayout.m */; };
+		8DC672E36C85CE76DC401540EA709F18 /* SwiftyCustomContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534068AFEDB64B2F035C814ACBE2EA08 /* SwiftyCustomContentButton.swift */; };
+		9477DD6E4BECD48B624A50F41319B97D /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 948E73DB280BE6DA7269CF739AED6FCC /* PureLayout-dummy.m */; };
+		99DE446C65704CFF34FA0D4E031861A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
+		A16650255E0A88C9F2A9B52CB4D802A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
+		AA8E77CB14B04DB917F49F8E15B2028A /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DF07958A3D00863076D4D1BDE46629 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE5EB67D51B905CF5309B851273C08DB /* Pods-iEnglishTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF8060A88EB4A27F8B1D9FBC6FF7678 /* Pods-iEnglishTests-dummy.m */; };
-		AF7EDCE16C0FFC58C61E53507DB7A1E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADE166DB80D75A68C69A02DF6D91134 /* QuartzCore.framework */; };
+		BC6EAFE029ED81A55548A6CD1D6E8C8F /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F41BC96D33BBDF3786082A3E54FD23B9 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE065E069D41ACC710F7A701360B801 /* SwiftyButton+ResizableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BB92EE80596AB4BDCB00B0E11A1388 /* SwiftyButton+ResizableImage.swift */; };
+		C434E14EA3CE04DD016E9311E2759F71 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BCBD7D0473459D18B8B844E32847F0 /* SwiftyButton-dummy.m */; };
+		C4971B72AC15719027623E07908424D3 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F060F961E68E5FD526C0B46A7F53B6 /* Toast.swift */; };
+		C6E15C5A5621F4B6DB6B6879BDFF5749 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E006F718C22D776D4958852EA2654D /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC44761DFCBC55EF94327C266FC538CA /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A1A929FF2F096F1D5B68E1B837359 /* ALView+PureLayout.m */; };
+		CC51F651369D239B9427714B1F5E7BE3 /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F30623015E0983C5C48B439C49D6A4 /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D294378D82B411D9860B8208C299AAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
-		D62F296D0108E5629589E196F1922212 /* SwiftyCustomContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9206D731B02147972C9CCF86C8DDF8AD /* SwiftyCustomContentButton.swift */; };
-		E6BECB93CC08AFC83E5C5A0C1F4251CE /* Pods-iEnglish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B98BD3D2E88F25F52E29D93EE4AC02FF /* Pods-iEnglish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBB6F2A9F2A5AFF778F89255EBFF0810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */; };
-		F2AF4EE8588B2C6B39BF5245DC1C9886 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFBED3DBD47DDD6BE24368F48DF4C1F /* NSLayoutConstraint+PureLayout.m */; };
-		F3FE41F41B53DCFFFD628BDE142D4154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5A00A2950DFDA35FD2975D0BAA5A27 /* UIKit.framework */; };
-		F444A6F6D51B526D25B0703048526CD5 /* SwiftyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A086C0F8C184FBDC2EC85F14C9E26 /* SwiftyButton.swift */; };
-		F98B6424AB4F8D155D3A8B744C7EF168 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E917FFCA375E473E4C2DFBBE15A3ACE1 /* SwiftyButton-dummy.m */; };
+		DC029F53CF0AC35CC173CF96C7792A42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5A00A2950DFDA35FD2975D0BAA5A27 /* UIKit.framework */; };
+		EDE675944EAD2B5E29E1841FDC952B75 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AC072E4AC2AADC11DD525D3AA77E54A2 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CD6CC3A419257C884A2438D98524E7 /* Pods-iEnglish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B98BD3D2E88F25F52E29D93EE4AC02FF /* Pods-iEnglish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32EAAECA4076626E721E65470C52C8A /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD7ADB037BC568F2A8BC7C2EECEE4A7 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D7E34BD06BCAC6EA59A90104FE951C9 /* PBXContainerItemProxy */ = {
+		7A80BEC19A67FBB375063C3A8DD21C82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5CF96D4E19B852CFF9EA38B857ABEE77;
+			remoteGlobalIDString = 368843F30E4DA8F48581F4F975AE63E6;
+			remoteInfo = PureLayout;
+		};
+		85774E4CF2E77FC08D5057B72C7F93BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368843F30E4DA8F48581F4F975AE63E6;
+			remoteInfo = PureLayout;
+		};
+		C1029E7EA641E5733471E4D594A1ADCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA9013B978BEEF7E659212272B16A80;
+			remoteInfo = "Toast-Swift";
+		};
+		DD476DA89CC8CEC127CA725FD0C803F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0B71C467ED3C38E2B8E6D463F7E3CBF;
 			remoteInfo = SwiftyButton;
-		};
-		8076A450F0A2863706E9110548603D46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68F6AA052025252F56F185B0F05A7657;
-			remoteInfo = PureLayout;
-		};
-		99D65B9FE24DFCA098F86188706E6039 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68F6AA052025252F56F185B0F05A7657;
-			remoteInfo = PureLayout;
-		};
-		FBDF8F26ACF1ED5F0F744D7247C28FE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED82E066AAF86C0BACC0D7299C01F7FA;
-			remoteInfo = Toast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		002AE3B4A874A6B9D7D583318F919609 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		03595F554C537F56D8D7FD2FFFDB7543 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
 		0ADE166DB80D75A68C69A02DF6D91134 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0CADEB6D4F813D785135844DAE3F8573 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2E0492DFB50F139A1BEEDD99B51637 /* SwiftyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyButton.swift; path = SwiftyButton/SwiftyButton.swift; sourceTree = "<group>"; };
 		0EE368210DBB8658AC89298C7AE9A1CE /* Pods-iEnglishUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iEnglishUITests.modulemap"; sourceTree = "<group>"; };
-		150EA13B22A918A8456F33FE7F06F349 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
 		153030CBE1DACC9F1308B2B99DFD75C6 /* Pods-iEnglishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iEnglishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16F060F961E68E5FD526C0B46A7F53B6 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		1E06B31CE1EFDC161FA94897662BB077 /* Pods_iEnglishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iEnglishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2544866B1FA8DED52435ADCD132C79DF /* Pods-iEnglishUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iEnglishUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		257509A75B6663678694CD4A58BE4ED7 /* Pods-iEnglishTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iEnglishTests.modulemap"; sourceTree = "<group>"; };
-		266124C8208150F0373298029CC5FBDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		276B9F1AC46CEA090DCE890971DD7D9F /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
-		2A943445955257960BB8815B02AB3DC2 /* Pods_iEnglishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iEnglishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1DD7192D3E4CE9664C2FEB3C678872 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		33A43C91443C60C4FC73D398408136FF /* Pods-iEnglish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iEnglish.modulemap"; sourceTree = "<group>"; };
-		346F62A5B76992F2E0E18D14638CD474 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		347652C9623A952A8461938977235B31 /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		34DF657898EF8E15DBB7EA1843FDFCF6 /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
 		353423F5E5C9C8E46233B96051A4FFD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E88C8F447108BA488D4C3C9AF7C9BA4 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Toast.modulemap; sourceTree = "<group>"; };
 		4177508A9F4B481E3557DC4B6BFB9EF6 /* Pods-iEnglish-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iEnglish-acknowledgements.plist"; sourceTree = "<group>"; };
-		4744A1C492BE7081541BE2CD676192A8 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		41FF6C337B97074468E29C57D43B29FA /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		43E006F718C22D776D4958852EA2654D /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
 		482333F498D4C675179A44370D3C798A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC3EE63125ECA03B345F526B9CF217A /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		510A086C0F8C184FBDC2EC85F14C9E26 /* SwiftyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyButton.swift; path = SwiftyButton/SwiftyButton.swift; sourceTree = "<group>"; };
+		507425A27530F6AE4A816D0E213D31EB /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		52BCBD7D0473459D18B8B844E32847F0 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
+		534068AFEDB64B2F035C814ACBE2EA08 /* SwiftyCustomContentButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCustomContentButton.swift; path = SwiftyButton/SwiftyCustomContentButton.swift; sourceTree = "<group>"; };
 		560C042FDB53F8E3034BA9EAEA534738 /* Pods-iEnglishTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iEnglishTests-umbrella.h"; sourceTree = "<group>"; };
 		5867B171EB2ADBC5E9CEB781B6823979 /* Pods-iEnglish-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iEnglish-frameworks.sh"; sourceTree = "<group>"; };
-		5A50C39F6EC5C4CD0259565E5EB0964C /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		5B5A00A2950DFDA35FD2975D0BAA5A27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5E88172F702C7872AE7EA756BDD4665C /* Pods-iEnglishTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iEnglishTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6018548A09A46EF50DB6E545671DC5A6 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		640B3AB4677DD7BEE7241E707F1C6AD0 /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		60BB92EE80596AB4BDCB00B0E11A1388 /* SwiftyButton+ResizableImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyButton+ResizableImage.swift"; path = "SwiftyButton/SwiftyButton+ResizableImage.swift"; sourceTree = "<group>"; };
+		62F30623015E0983C5C48B439C49D6A4 /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
 		641A5BFD498369AE368F7DC5264B403E /* Pods-iEnglishUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iEnglishUITests-frameworks.sh"; sourceTree = "<group>"; };
-		721CF0C18FF9C7566FAFD44AB3CD209F /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		7A4D2D82B6EF744822508888653E89DF /* Pods-iEnglishTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iEnglishTests-frameworks.sh"; sourceTree = "<group>"; };
-		7CF4A7556CEB59E7B429BE5E0063CF2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F16F8A879E20471C2DD4769DCBE7398 /* Pods-iEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iEnglish.release.xcconfig"; sourceTree = "<group>"; };
-		81AC39A05B4D76D9A0F4115891425B7C /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8209B688ABB78EBB35F58CEB6C90264A /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F708575BAEF6417379D7731BA179A87 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
 		838791FA0B0429616ECC397B3D8B2876 /* Pods-iEnglish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iEnglish-dummy.m"; sourceTree = "<group>"; };
-		83F7E0E93C5D0ED40AED1C3CF4914771 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
-		89865AC4000E9BE2E6171C68B88A43DD /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		87A6CF9D6BCC5893F73D560B0B7863F0 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		8CE6C9E70865EC602AF1D779E94A2949 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB5DD91FD77E8387F8EB76F22B05C4C /* Pods-iEnglishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iEnglishTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E4D117E192D60C40D44CE9497588D90 /* Pods-iEnglishUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iEnglishUITests-resources.sh"; sourceTree = "<group>"; };
-		917D42D9BB1ABBB3A3E9E576E9D16CA4 /* Pods_iEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9206D731B02147972C9CCF86C8DDF8AD /* SwiftyCustomContentButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCustomContentButton.swift; path = SwiftyButton/SwiftyCustomContentButton.swift; sourceTree = "<group>"; };
+		916A4E6913D96D3E44424EF9AE3DE43C /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94B4DA75574455E0746C21032CF735E2 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		99ED448B5173B688E0A2551ACF2D28DD /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
+		948E73DB280BE6DA7269CF739AED6FCC /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
 		9BAF39E528E717C0AB9BCED54B527D55 /* Pods-iEnglishTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iEnglishTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F21B0B8281462F0F42A5579AF4EDD7E /* Pods-iEnglishTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iEnglishTests-resources.sh"; sourceTree = "<group>"; };
-		9F681425F94255FE7CF86E15718941B3 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8CF8A033B1CFCCE65DC1658BFC94088 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		A95AE83BD94009478411830F984396BB /* Pods_iEnglishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iEnglishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B036EAC26E8E17854DDC3235FB35E8F6 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		B41D0C78051B38BB8435451247089B36 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		A641383D71211378FD24B0D345BF25B4 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		AB24D1EE39B61E9D7ACEC63845336C98 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		AC072E4AC2AADC11DD525D3AA77E54A2 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		B70F9BE9F83C65F591C4D26744BAB9E1 /* Pods-iEnglishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iEnglishUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B98BD3D2E88F25F52E29D93EE4AC02FF /* Pods-iEnglish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iEnglish-umbrella.h"; sourceTree = "<group>"; };
 		BD642AF46FC96775829FFD0A74F81848 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C853EF8E0D2F2FC92BF85935CDC4C9C5 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		BD921002D00FA77EC95C59C0D5AEF15A /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		BF973B46CF2D5419CE9DD329809A1C03 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2599342940E76E2174274A2865379A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C612B33B008A5EFA5662676414F53A96 /* Pods_iEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BE52215BF6339C7307A66C52590F6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB56C12B01912B2318E521E1B028EA4E /* Pods-iEnglish-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iEnglish-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB8DAF6602697F5FF0A9EEFD2A7BD15C /* Pods-iEnglishUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iEnglishUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5F46E90561DC298F1E79CB3F4CD8E16 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
-		D697D254BB9F1153FA9635FEC034485E /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		CBFC77EF8772C83D9831ECE9C70F2095 /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
+		D447CBC67B3AD4BF46CEA9DF7E2F57B9 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		D5DF07958A3D00863076D4D1BDE46629 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
 		DA34C1B15964944C451E8CAD9EC13144 /* Pods-iEnglishUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iEnglishUITests-dummy.m"; sourceTree = "<group>"; };
+		E033B404246914A905E0A808B28629EC /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
 		E09AFDE2BB3DFCCB42722B97CB7B8345 /* Pods-iEnglishUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iEnglishUITests-umbrella.h"; sourceTree = "<group>"; };
 		E61721805862FCD7531152B67ABA63DF /* Pods-iEnglishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iEnglishTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6672DD374B6D7657266A5F9BDB154AD /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		E76AADC25DCBE1265A130C99B1219AD9 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		E917FFCA375E473E4C2DFBBE15A3ACE1 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
-		EDE56C733656E48439459F5C49E68920 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F71592E44EBF0D2BC3A1C13DCEBA22 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF8060A88EB4A27F8B1D9FBC6FF7678 /* Pods-iEnglishTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iEnglishTests-dummy.m"; sourceTree = "<group>"; };
 		F23CB0CA328C38B0D3341C70A1544694 /* Pods-iEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iEnglish.debug.xcconfig"; sourceTree = "<group>"; };
-		F2C88748508AD3D7666CAC75398861A5 /* SwiftyButton+ResizableImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyButton+ResizableImage.swift"; path = "SwiftyButton/SwiftyButton+ResizableImage.swift"; sourceTree = "<group>"; };
-		F573B728BFBE082D6EFB73FDEF59C3DD /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		F99E86968C36C5D485B63CF6DE6A345C /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
+		F2F4258BA7C4DE9C2E774A2C102AFAC5 /* Pods_iEnglishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iEnglishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41BC96D33BBDF3786082A3E54FD23B9 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		F4A5E5C8893E20A051B4C0048CB18A12 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		FAD7ADB037BC568F2A8BC7C2EECEE4A7 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
 		FBA6092AF30B6BC0CF5A35484DDA383A /* Pods-iEnglish-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iEnglish-resources.sh"; sourceTree = "<group>"; };
-		FCFBED3DBD47DDD6BE24368F48DF4C1F /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		FC4A1A929FF2F096F1D5B68E1B837359 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0BB7603CCDB8E16EC0689575B16886A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BD7DFF5559F5A66B24C16BEAC5DF03 /* Foundation.framework in Frameworks */,
+				1B1BE297F0CD3089CDEFF1C4C9BCFA40 /* PureLayout.framework in Frameworks */,
+				DC029F53CF0AC35CC173CF96C7792A42 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11CEB6D9CDF81BCA020C4EF6A4FA43F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,30 +168,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		253C1D20ABAF9B2A93D0573ACA37382C /* Frameworks */ = {
+		1B3A36B47D39E71DCF851E65CA71C568 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378F3AACED7AE421A935AA037C9D9BEF /* Foundation.framework in Frameworks */,
+				1E3DA6AE57EFE94DEAA51D48A8533C0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C928D15E8500A4AD453B575A6577A49 /* Frameworks */ = {
+		2C20E6C25B20A08D1DAF0BB11A0664BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80356D1F92E93A4A4CB220072647ED59 /* Foundation.framework in Frameworks */,
-				5A88AF9238D2634BF912F987DCD975E1 /* PureLayout.framework in Frameworks */,
-				F3FE41F41B53DCFFFD628BDE142D4154 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92A96FC7117A70B6C4C8814783533A65 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBB6F2A9F2A5AFF778F89255EBFF0810 /* Foundation.framework in Frameworks */,
-				AF7EDCE16C0FFC58C61E53507DB7A1E2 /* QuartzCore.framework in Frameworks */,
+				99DE446C65704CFF34FA0D4E031861A2 /* Foundation.framework in Frameworks */,
+				72F444BC4006B93DEC14A4B9DF1DC867 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,49 +193,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF94DB9C4DBF7AF77CA48F32AE28D31 /* Frameworks */ = {
+		EF50A6E2B7834CAFB7E8EE3F75A76C53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DEC6383BE3BBD4ACE302D40AD3E480 /* Foundation.framework in Frameworks */,
+				A16650255E0A88C9F2A9B52CB4D802A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09729769011A72B3D4BA4F3BCC5A56EC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3938FEBF4F8AE4927F10BC958D7C23B2 /* PureLayout */,
-				A97257670EAF7243C27FDFBA8F021D14 /* SwiftyButton */,
-				F94AF04877C88A0458CCC411388D4C62 /* Toast */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		189F54D4EEB8415300612E8E61C6763D /* CustomContent */ = {
-			isa = PBXGroup;
-			children = (
-				9206D731B02147972C9CCF86C8DDF8AD /* SwiftyCustomContentButton.swift */,
-			);
-			name = CustomContent;
-			sourceTree = "<group>";
-		};
-		1AF1115D7F384CDB6B492A8DACC6FA01 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7CF4A7556CEB59E7B429BE5E0063CF2F /* Info.plist */,
-				3E88C8F447108BA488D4C3C9AF7C9BA4 /* Toast.modulemap */,
-				D697D254BB9F1153FA9635FEC034485E /* Toast.xcconfig */,
-				346F62A5B76992F2E0E18D14638CD474 /* Toast-dummy.m */,
-				4744A1C492BE7081541BE2CD676192A8 /* Toast-prefix.pch */,
-				89865AC4000E9BE2E6171C68B88A43DD /* Toast-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast";
-			sourceTree = "<group>";
-		};
 		1BE10DE4A13670BB9F87C5368F2CEA9E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,48 +242,75 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3938FEBF4F8AE4927F10BC958D7C23B2 /* PureLayout */ = {
+		37B623F1AD98CFF621452BB11CC55918 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				721CF0C18FF9C7566FAFD44AB3CD209F /* ALView+PureLayout.h */,
-				B036EAC26E8E17854DDC3235FB35E8F6 /* ALView+PureLayout.m */,
-				6018548A09A46EF50DB6E545671DC5A6 /* NSArray+PureLayout.h */,
-				E6672DD374B6D7657266A5F9BDB154AD /* NSArray+PureLayout.m */,
-				E76AADC25DCBE1265A130C99B1219AD9 /* NSLayoutConstraint+PureLayout.h */,
-				FCFBED3DBD47DDD6BE24368F48DF4C1F /* NSLayoutConstraint+PureLayout.m */,
-				A8CF8A033B1CFCCE65DC1658BFC94088 /* PureLayout.h */,
-				5A50C39F6EC5C4CD0259565E5EB0964C /* PureLayout+Internal.h */,
-				D5F46E90561DC298F1E79CB3F4CD8E16 /* PureLayoutDefines.h */,
-				5FF20D3FB2A02FD8EFA0ECBD8BAAE253 /* Support Files */,
+				C7BE52215BF6339C7307A66C52590F6F /* Info.plist */,
+				916A4E6913D96D3E44424EF9AE3DE43C /* Toast-Swift.modulemap */,
+				87A6CF9D6BCC5893F73D560B0B7863F0 /* Toast-Swift.xcconfig */,
+				7F708575BAEF6417379D7731BA179A87 /* Toast-Swift-dummy.m */,
+				E033B404246914A905E0A808B28629EC /* Toast-Swift-prefix.pch */,
+				F4A5E5C8893E20A051B4C0048CB18A12 /* Toast-Swift-umbrella.h */,
 			);
-			path = PureLayout;
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
 			sourceTree = "<group>";
 		};
-		580B4F9AC2098773C3DC23EDA23FBCCC /* Products */ = {
+		39900756E3CBEE97512F34D2A8D1338C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				917D42D9BB1ABBB3A3E9E576E9D16CA4 /* Pods_iEnglish.framework */,
-				A95AE83BD94009478411830F984396BB /* Pods_iEnglishTests.framework */,
-				2A943445955257960BB8815B02AB3DC2 /* Pods_iEnglishUITests.framework */,
-				9F681425F94255FE7CF86E15718941B3 /* PureLayout.framework */,
-				8209B688ABB78EBB35F58CEB6C90264A /* SwiftyButton.framework */,
-				81AC39A05B4D76D9A0F4115891425B7C /* Toast.framework */,
+				DB59302EAB72734653EECB29D60EB5E4 /* PureLayout */,
+				4044D6946648BDFC902896CC20A03FA6 /* SwiftyButton */,
+				9EEB9D885D33E620E57E909789365482 /* Toast-Swift */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		5FF20D3FB2A02FD8EFA0ECBD8BAAE253 /* Support Files */ = {
+		4044D6946648BDFC902896CC20A03FA6 /* SwiftyButton */ = {
 			isa = PBXGroup;
 			children = (
-				EDE56C733656E48439459F5C49E68920 /* Info.plist */,
-				C853EF8E0D2F2FC92BF85935CDC4C9C5 /* PureLayout.modulemap */,
-				150EA13B22A918A8456F33FE7F06F349 /* PureLayout.xcconfig */,
-				F573B728BFBE082D6EFB73FDEF59C3DD /* PureLayout-dummy.m */,
-				94B4DA75574455E0746C21032CF735E2 /* PureLayout-prefix.pch */,
-				B41D0C78051B38BB8435451247089B36 /* PureLayout-umbrella.h */,
+				0D2E0492DFB50F139A1BEEDD99B51637 /* SwiftyButton.swift */,
+				60BB92EE80596AB4BDCB00B0E11A1388 /* SwiftyButton+ResizableImage.swift */,
+				5B3EBF6AB99B9B8829B79A1950A28176 /* CustomContent */,
+				4F55221641828F3B222FBC27E6972C2C /* Support Files */,
+			);
+			path = SwiftyButton;
+			sourceTree = "<group>";
+		};
+		4F55221641828F3B222FBC27E6972C2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CADEB6D4F813D785135844DAE3F8573 /* Info.plist */,
+				CBFC77EF8772C83D9831ECE9C70F2095 /* SwiftyButton.modulemap */,
+				347652C9623A952A8461938977235B31 /* SwiftyButton.xcconfig */,
+				52BCBD7D0473459D18B8B844E32847F0 /* SwiftyButton-dummy.m */,
+				34DF657898EF8E15DBB7EA1843FDFCF6 /* SwiftyButton-prefix.pch */,
+				62F30623015E0983C5C48B439C49D6A4 /* SwiftyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyButton";
+			sourceTree = "<group>";
+		};
+		59B59E8695481E9C567DD0AE7DFE5246 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2599342940E76E2174274A2865379A9 /* Info.plist */,
+				41FF6C337B97074468E29C57D43B29FA /* PureLayout.modulemap */,
+				AB24D1EE39B61E9D7ACEC63845336C98 /* PureLayout.xcconfig */,
+				948E73DB280BE6DA7269CF739AED6FCC /* PureLayout-dummy.m */,
+				D447CBC67B3AD4BF46CEA9DF7E2F57B9 /* PureLayout-prefix.pch */,
+				F41BC96D33BBDF3786082A3E54FD23B9 /* PureLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		5B3EBF6AB99B9B8829B79A1950A28176 /* CustomContent */ = {
+			isa = PBXGroup;
+			children = (
+				534068AFEDB64B2F035C814ACBE2EA08 /* SwiftyCustomContentButton.swift */,
+			);
+			name = CustomContent;
 			sourceTree = "<group>";
 		};
 		69D78CA24DC4EC70B8759272BF096D1E /* Frameworks */ = {
@@ -334,21 +327,49 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				69D78CA24DC4EC70B8759272BF096D1E /* Frameworks */,
-				09729769011A72B3D4BA4F3BCC5A56EC /* Pods */,
-				580B4F9AC2098773C3DC23EDA23FBCCC /* Products */,
+				39900756E3CBEE97512F34D2A8D1338C /* Pods */,
+				D17213D60E65ED59C5E12E25A0003155 /* Products */,
 				33FAD5862D7BA66F6C1E7D035ACA3209 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A97257670EAF7243C27FDFBA8F021D14 /* SwiftyButton */ = {
+		9EEB9D885D33E620E57E909789365482 /* Toast-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				510A086C0F8C184FBDC2EC85F14C9E26 /* SwiftyButton.swift */,
-				F2C88748508AD3D7666CAC75398861A5 /* SwiftyButton+ResizableImage.swift */,
-				189F54D4EEB8415300612E8E61C6763D /* CustomContent */,
-				F96CDE758B97A6141A0F199FC752E0EE /* Support Files */,
+				16F060F961E68E5FD526C0B46A7F53B6 /* Toast.swift */,
+				37B623F1AD98CFF621452BB11CC55918 /* Support Files */,
 			);
-			path = SwiftyButton;
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		D17213D60E65ED59C5E12E25A0003155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C612B33B008A5EFA5662676414F53A96 /* Pods_iEnglish.framework */,
+				F2F4258BA7C4DE9C2E774A2C102AFAC5 /* Pods_iEnglishTests.framework */,
+				1E06B31CE1EFDC161FA94897662BB077 /* Pods_iEnglishUITests.framework */,
+				E8F71592E44EBF0D2BC3A1C13DCEBA22 /* PureLayout.framework */,
+				8CE6C9E70865EC602AF1D779E94A2949 /* SwiftyButton.framework */,
+				BF973B46CF2D5419CE9DD329809A1C03 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB59302EAB72734653EECB29D60EB5E4 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2B1DD7192D3E4CE9664C2FEB3C678872 /* ALView+PureLayout.h */,
+				FC4A1A929FF2F096F1D5B68E1B837359 /* ALView+PureLayout.m */,
+				43E006F718C22D776D4958852EA2654D /* NSArray+PureLayout.h */,
+				A641383D71211378FD24B0D345BF25B4 /* NSArray+PureLayout.m */,
+				AC072E4AC2AADC11DD525D3AA77E54A2 /* NSLayoutConstraint+PureLayout.h */,
+				507425A27530F6AE4A816D0E213D31EB /* NSLayoutConstraint+PureLayout.m */,
+				FAD7ADB037BC568F2A8BC7C2EECEE4A7 /* PureLayout.h */,
+				BD921002D00FA77EC95C59C0D5AEF15A /* PureLayout+Internal.h */,
+				D5DF07958A3D00863076D4D1BDE46629 /* PureLayoutDefines.h */,
+				59B59E8695481E9C567DD0AE7DFE5246 /* Support Files */,
+			);
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 		DD8F16C03A8927DE54D96BC1008AF88A /* Pods-iEnglish */ = {
@@ -387,30 +408,6 @@
 			path = "Target Support Files/Pods-iEnglishUITests";
 			sourceTree = "<group>";
 		};
-		F94AF04877C88A0458CCC411388D4C62 /* Toast */ = {
-			isa = PBXGroup;
-			children = (
-				03595F554C537F56D8D7FD2FFFDB7543 /* UIView+Toast.h */,
-				83F7E0E93C5D0ED40AED1C3CF4914771 /* UIView+Toast.m */,
-				1AF1115D7F384CDB6B492A8DACC6FA01 /* Support Files */,
-			);
-			path = Toast;
-			sourceTree = "<group>";
-		};
-		F96CDE758B97A6141A0F199FC752E0EE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				266124C8208150F0373298029CC5FBDB /* Info.plist */,
-				99ED448B5173B688E0A2551ACF2D28DD /* SwiftyButton.modulemap */,
-				276B9F1AC46CEA090DCE890971DD7D9F /* SwiftyButton.xcconfig */,
-				E917FFCA375E473E4C2DFBBE15A3ACE1 /* SwiftyButton-dummy.m */,
-				640B3AB4677DD7BEE7241E707F1C6AD0 /* SwiftyButton-prefix.pch */,
-				F99E86968C36C5D485B63CF6DE6A345C /* SwiftyButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyButton";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -422,34 +419,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B317A046F7C035FDC674CC01EEAA903 /* Headers */ = {
+		6853B56F2BA7B9ABA523E93050773FC0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9E8360A0E61A3EF865E79DC809D16A /* SwiftyButton-umbrella.h in Headers */,
+				F0CD6CC3A419257C884A2438D98524E7 /* Pods-iEnglish-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81C08CFF7ECFB6216343CC155A9F5CFA /* Headers */ = {
+		96B4DD1096D02806976CCE5A7158F178 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A596889E3B4F049C04EFD21CAB87319 /* ALView+PureLayout.h in Headers */,
-				6005157BDB778F5E756D82941EA675AD /* NSArray+PureLayout.h in Headers */,
-				1A278820D6BCE859C1C6753706BA0C59 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				30C6A1249B0BB8C0F72365167C4303E4 /* PureLayout+Internal.h in Headers */,
-				9A8AA6861F5EC60C02D27BE824BF1311 /* PureLayout-umbrella.h in Headers */,
-				AAE57FB74D650949DD733C91D3CE6D72 /* PureLayout.h in Headers */,
-				3F0C2838C8477E0AF61026688D6BCFA4 /* PureLayoutDefines.h in Headers */,
+				CC51F651369D239B9427714B1F5E7BE3 /* SwiftyButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		859DF75A40DFB5BFDD16DCE4474995C7 /* Headers */ = {
+		A47BB9614405D199212E225A9A316EC8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9133F580739DF0C99CF89B425761DBFA /* Toast-umbrella.h in Headers */,
-				74693E3BCB677E04C879F42BD1988C99 /* UIView+Toast.h in Headers */,
+				5110FA1670353C2BDF0F977FB5A9B678 /* ALView+PureLayout.h in Headers */,
+				C6E15C5A5621F4B6DB6B6879BDFF5749 /* NSArray+PureLayout.h in Headers */,
+				EDE675944EAD2B5E29E1841FDC952B75 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				847A19B011E3672EA7D982DB18848C9F /* PureLayout+Internal.h in Headers */,
+				BC6EAFE029ED81A55548A6CD1D6E8C8F /* PureLayout-umbrella.h in Headers */,
+				F32EAAECA4076626E721E65470C52C8A /* PureLayout.h in Headers */,
+				AA8E77CB14B04DB917F49F8E15B2028A /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74A0F644122BD25F766F1AEF37E7943 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2994A744315B26D0BD538217E4946470 /* Toast-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,14 +462,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EA84409FC3FB5C340342A3C02BD4690 /* Pods-iEnglishUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4F3262473B2179FA1E28877710A14BF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6BECB93CC08AFC83E5C5A0C1F4251CE /* Pods-iEnglish-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,34 +482,16 @@
 			);
 			name = "Pods-iEnglishTests";
 			productName = "Pods-iEnglishTests";
-			productReference = A95AE83BD94009478411830F984396BB /* Pods_iEnglishTests.framework */;
+			productReference = F2F4258BA7C4DE9C2E774A2C102AFAC5 /* Pods_iEnglishTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5CF96D4E19B852CFF9EA38B857ABEE77 /* SwiftyButton */ = {
+		368843F30E4DA8F48581F4F975AE63E6 /* PureLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB0267B09164C79A366750370F445626 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildConfigurationList = F707151A130DB13F6C52AA70CC8348FC /* Build configuration list for PBXNativeTarget "PureLayout" */;
 			buildPhases = (
-				8D8495AD9C205A91E030CD5970AA120F /* Sources */,
-				3C928D15E8500A4AD453B575A6577A49 /* Frameworks */,
-				6B317A046F7C035FDC674CC01EEAA903 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B4D4B9443F391137FA50E9451A9E8A68 /* PBXTargetDependency */,
-			);
-			name = SwiftyButton;
-			productName = SwiftyButton;
-			productReference = 8209B688ABB78EBB35F58CEB6C90264A /* SwiftyButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		68F6AA052025252F56F185B0F05A7657 /* PureLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E378186149FAB48E7C4A676BBD425223 /* Build configuration list for PBXNativeTarget "PureLayout" */;
-			buildPhases = (
-				F126EE6D582953524D0483A7BDF2FA85 /* Sources */,
-				253C1D20ABAF9B2A93D0573ACA37382C /* Frameworks */,
-				81C08CFF7ECFB6216343CC155A9F5CFA /* Headers */,
+				FB58CFA249D70722D123460DD877AE7B /* Sources */,
+				EF50A6E2B7834CAFB7E8EE3F75A76C53 /* Frameworks */,
+				A47BB9614405D199212E225A9A316EC8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -521,44 +499,62 @@
 			);
 			name = PureLayout;
 			productName = PureLayout;
-			productReference = 9F681425F94255FE7CF86E15718941B3 /* PureLayout.framework */;
+			productReference = E8F71592E44EBF0D2BC3A1C13DCEBA22 /* PureLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B92AE482C1CC5AAC9CE75C373EC68FF9 /* Pods-iEnglish */ = {
+		3DA9013B978BEEF7E659212272B16A80 /* Toast-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5978FD53452CA9ACB0F9BD627495BD56 /* Build configuration list for PBXNativeTarget "Pods-iEnglish" */;
+			buildConfigurationList = AB2141503478F656DFAAF202C104CD54 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
 			buildPhases = (
-				1C181883CE6DF12700D66ED6609ACC28 /* Sources */,
-				EBF94DB9C4DBF7AF77CA48F32AE28D31 /* Frameworks */,
-				B4F3262473B2179FA1E28877710A14BF /* Headers */,
+				29600BFF3FE1F158D515982750E4E404 /* Sources */,
+				2C20E6C25B20A08D1DAF0BB11A0664BF /* Frameworks */,
+				A74A0F644122BD25F766F1AEF37E7943 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				98A61CC03B48CA3E3E262F89390EAB04 /* PBXTargetDependency */,
-				CABD61DD06D2F8796A926BD9251E0A04 /* PBXTargetDependency */,
-				108D98BA372E9CCD9BDC24BE6C83505D /* PBXTargetDependency */,
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = BF973B46CF2D5419CE9DD329809A1C03 /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E196304215E116093A1ED08F22998C8B /* Pods-iEnglish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEDCA4941E72E0A40ADA3967191A3CB /* Build configuration list for PBXNativeTarget "Pods-iEnglish" */;
+			buildPhases = (
+				EA2AE843D0DEB6ACD445C320E079333F /* Sources */,
+				1B3A36B47D39E71DCF851E65CA71C568 /* Frameworks */,
+				6853B56F2BA7B9ABA523E93050773FC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14894B6D3D110D836A2DC301B042D620 /* PBXTargetDependency */,
+				3AA4B3A1E43665064160956D873B2CFC /* PBXTargetDependency */,
+				4DE913D8AB3472A16BC2C260A99578AB /* PBXTargetDependency */,
 			);
 			name = "Pods-iEnglish";
 			productName = "Pods-iEnglish";
-			productReference = 917D42D9BB1ABBB3A3E9E576E9D16CA4 /* Pods_iEnglish.framework */;
+			productReference = C612B33B008A5EFA5662676414F53A96 /* Pods_iEnglish.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ED82E066AAF86C0BACC0D7299C01F7FA /* Toast */ = {
+		F0B71C467ED3C38E2B8E6D463F7E3CBF /* SwiftyButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 565EC605ABC1A1374874BB3ACB5FA61F /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildConfigurationList = 53418F58ECD8302F3970F93C20D61BE5 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
 			buildPhases = (
-				9916D4D684AA928CD3DFA11D3F90ED41 /* Sources */,
-				92A96FC7117A70B6C4C8814783533A65 /* Frameworks */,
-				859DF75A40DFB5BFDD16DCE4474995C7 /* Headers */,
+				11082D240DA6633835AD2921985570D8 /* Sources */,
+				0BB7603CCDB8E16EC0689575B16886A3 /* Frameworks */,
+				96B4DD1096D02806976CCE5A7158F178 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AE3DD14B7A0F5A6188DCDB03F1BCDE5A /* PBXTargetDependency */,
 			);
-			name = Toast;
-			productName = Toast;
-			productReference = 81AC39A05B4D76D9A0F4115891425B7C /* Toast.framework */;
+			name = SwiftyButton;
+			productName = SwiftyButton;
+			productReference = 8CE6C9E70865EC602AF1D779E94A2949 /* SwiftyButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FD65CE3AC2D542B1016CF9488B05F485 /* Pods-iEnglishUITests */ = {
@@ -575,7 +571,7 @@
 			);
 			name = "Pods-iEnglishUITests";
 			productName = "Pods-iEnglishUITests";
-			productReference = 2A943445955257960BB8815B02AB3DC2 /* Pods_iEnglishUITests.framework */;
+			productReference = 1E06B31CE1EFDC161FA94897662BB077 /* Pods_iEnglishUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -595,26 +591,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 580B4F9AC2098773C3DC23EDA23FBCCC /* Products */;
+			productRefGroup = D17213D60E65ED59C5E12E25A0003155 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B92AE482C1CC5AAC9CE75C373EC68FF9 /* Pods-iEnglish */,
+				E196304215E116093A1ED08F22998C8B /* Pods-iEnglish */,
 				1685181AF7BB40552EEB5F6D27DAF747 /* Pods-iEnglishTests */,
 				FD65CE3AC2D542B1016CF9488B05F485 /* Pods-iEnglishUITests */,
-				68F6AA052025252F56F185B0F05A7657 /* PureLayout */,
-				5CF96D4E19B852CFF9EA38B857ABEE77 /* SwiftyButton */,
-				ED82E066AAF86C0BACC0D7299C01F7FA /* Toast */,
+				368843F30E4DA8F48581F4F975AE63E6 /* PureLayout */,
+				F0B71C467ED3C38E2B8E6D463F7E3CBF /* SwiftyButton */,
+				3DA9013B978BEEF7E659212272B16A80 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C181883CE6DF12700D66ED6609ACC28 /* Sources */ = {
+		11082D240DA6633835AD2921985570D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F523DC737D5389BA0C94D3ABF5F0F07 /* Pods-iEnglish-dummy.m in Sources */,
+				BFE065E069D41ACC710F7A701360B801 /* SwiftyButton+ResizableImage.swift in Sources */,
+				C434E14EA3CE04DD016E9311E2759F71 /* SwiftyButton-dummy.m in Sources */,
+				83D158668A8A302BADF4EE0F8D2ECD5A /* SwiftyButton.swift in Sources */,
+				8DC672E36C85CE76DC401540EA709F18 /* SwiftyCustomContentButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29600BFF3FE1F158D515982750E4E404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EF3853DD8435CC40504E871FC2315 /* Toast-Swift-dummy.m in Sources */,
+				C4971B72AC15719027623E07908424D3 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,26 +634,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D8495AD9C205A91E030CD5970AA120F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DF661F0953F8B49DBF80FFABDFF8BF5 /* SwiftyButton+ResizableImage.swift in Sources */,
-				F98B6424AB4F8D155D3A8B744C7EF168 /* SwiftyButton-dummy.m in Sources */,
-				F444A6F6D51B526D25B0703048526CD5 /* SwiftyButton.swift in Sources */,
-				D62F296D0108E5629589E196F1922212 /* SwiftyCustomContentButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9916D4D684AA928CD3DFA11D3F90ED41 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2463467AC85536BF8D93024EC1E86EB1 /* Toast-dummy.m in Sources */,
-				0EE55B6A8654770E0DE80387B92C34F3 /* UIView+Toast.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BFEB9C3854D6BF1F46F91DE9EAD0830E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,50 +642,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F126EE6D582953524D0483A7BDF2FA85 /* Sources */ = {
+		EA2AE843D0DEB6ACD445C320E079333F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD2A8FF9FBBBB695D944A69E2F9586A /* ALView+PureLayout.m in Sources */,
-				8B2024A9226B533473F2D473FFE48242 /* NSArray+PureLayout.m in Sources */,
-				F2AF4EE8588B2C6B39BF5245DC1C9886 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				1CA96A2213EB85BD4944BEB2BFD5FB75 /* PureLayout-dummy.m in Sources */,
+				28B127C5B873BC5084968B6E40D3F018 /* Pods-iEnglish-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB58CFA249D70722D123460DD877AE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC44761DFCBC55EF94327C266FC538CA /* ALView+PureLayout.m in Sources */,
+				567B9C05DA89FA0A21C0182AEDD86146 /* NSArray+PureLayout.m in Sources */,
+				885E5A90EB926183ECCB62111B1D703A /* NSLayoutConstraint+PureLayout.m in Sources */,
+				9477DD6E4BECD48B624A50F41319B97D /* PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		108D98BA372E9CCD9BDC24BE6C83505D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Toast;
-			target = ED82E066AAF86C0BACC0D7299C01F7FA /* Toast */;
-			targetProxy = FBDF8F26ACF1ED5F0F744D7247C28FE0 /* PBXContainerItemProxy */;
-		};
-		98A61CC03B48CA3E3E262F89390EAB04 /* PBXTargetDependency */ = {
+		14894B6D3D110D836A2DC301B042D620 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
-			target = 68F6AA052025252F56F185B0F05A7657 /* PureLayout */;
-			targetProxy = 99D65B9FE24DFCA098F86188706E6039 /* PBXContainerItemProxy */;
+			target = 368843F30E4DA8F48581F4F975AE63E6 /* PureLayout */;
+			targetProxy = 85774E4CF2E77FC08D5057B72C7F93BF /* PBXContainerItemProxy */;
 		};
-		B4D4B9443F391137FA50E9451A9E8A68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PureLayout;
-			target = 68F6AA052025252F56F185B0F05A7657 /* PureLayout */;
-			targetProxy = 8076A450F0A2863706E9110548603D46 /* PBXContainerItemProxy */;
-		};
-		CABD61DD06D2F8796A926BD9251E0A04 /* PBXTargetDependency */ = {
+		3AA4B3A1E43665064160956D873B2CFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyButton;
-			target = 5CF96D4E19B852CFF9EA38B857ABEE77 /* SwiftyButton */;
-			targetProxy = 1D7E34BD06BCAC6EA59A90104FE951C9 /* PBXContainerItemProxy */;
+			target = F0B71C467ED3C38E2B8E6D463F7E3CBF /* SwiftyButton */;
+			targetProxy = DD476DA89CC8CEC127CA725FD0C803F9 /* PBXContainerItemProxy */;
+		};
+		4DE913D8AB3472A16BC2C260A99578AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 3DA9013B978BEEF7E659212272B16A80 /* Toast-Swift */;
+			targetProxy = C1029E7EA641E5733471E4D594A1ADCC /* PBXContainerItemProxy */;
+		};
+		AE3DD14B7A0F5A6188DCDB03F1BCDE5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 368843F30E4DA8F48581F4F975AE63E6 /* PureLayout */;
+			targetProxy = 7A80BEC19A67FBB375063C3A8DD21C82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02CAC6792B1C2BB982B17BC1F42558B8 /* Debug */ = {
+		0DD5210992E255DD827A9266B21E02E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F23CB0CA328C38B0D3341C70A1544694 /* Pods-iEnglish.debug.xcconfig */;
+			baseConfigurationReference = 347652C9623A952A8461938977235B31 /* SwiftyButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -708,18 +704,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iEnglish/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iEnglish/Pods-iEnglish.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_iEnglish;
+				PRODUCT_NAME = SwiftyButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -754,6 +746,35 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_iEnglishTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		186AC92579FAA8CFAC934F66678C9A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347652C9623A952A8461938977235B31 /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -804,13 +825,13 @@
 			};
 			name = Debug;
 		};
-		51BDD451EA930BE9CA7B64C120DE6DF7 /* Release */ = {
+		547A85854C97449D3B848322A6C626BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F16F8A879E20471C2DD4769DCBE7398 /* Pods-iEnglish.release.xcconfig */;
+			baseConfigurationReference = F23CB0CA328C38B0D3341C70A1544694 /* Pods-iEnglish.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -823,7 +844,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iEnglish/Pods-iEnglish.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -831,11 +852,12 @@
 				PRODUCT_NAME = Pods_iEnglish;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		581A4083E43E1D1947860659D8F705E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -870,9 +892,9 @@
 			};
 			name = Debug;
 		};
-		87F7E17BE1792FEA3B3D6902B22AD79C /* Debug */ = {
+		68167CDC59EEFE52EA2A777285D854FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 276B9F1AC46CEA090DCE890971DD7D9F /* SwiftyButton.xcconfig */;
+			baseConfigurationReference = 87A6CF9D6BCC5893F73D560B0B7863F0 /* Toast-Swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -883,14 +905,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyButton;
+				PRODUCT_NAME = Toast_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -900,67 +922,9 @@
 			};
 			name = Debug;
 		};
-		8EABAD287F4F2FAF41546DAD11792095 /* Release */ = {
+		9B621F3930131F23A37D7E180221CE41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 276B9F1AC46CEA090DCE890971DD7D9F /* SwiftyButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9075ED79C85E46A06F6AEAC41064F719 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D697D254BB9F1153FA9635FEC034485E /* Toast.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Toast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		94C4D1C1E9DFBF8A5605800B07A1FF34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150EA13B22A918A8456F33FE7F06F349 /* PureLayout.xcconfig */;
+			baseConfigurationReference = AB24D1EE39B61E9D7ACEC63845336C98 /* PureLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1091,38 +1055,9 @@
 			};
 			name = Release;
 		};
-		DCF2503BD651391CE38AB06B56E606AC /* Debug */ = {
+		D1BDCB4E5FBD6CE0A110E8EDBAC988A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D697D254BB9F1153FA9635FEC034485E /* Toast.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Toast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DE6692027434388457450D9ED792A5C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150EA13B22A918A8456F33FE7F06F349 /* PureLayout.xcconfig */;
+			baseConfigurationReference = AB24D1EE39B61E9D7ACEC63845336C98 /* PureLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1149,6 +1084,68 @@
 			};
 			name = Debug;
 		};
+		D7F76D79DAEA19BE69B1BF096E266266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A6CF9D6BCC5893F73D560B0B7863F0 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD6791B76FBC34CFC59282D4C645BA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F16F8A879E20471C2DD4769DCBE7398 /* Pods-iEnglish.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iEnglish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iEnglish/Pods-iEnglish.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iEnglish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1157,6 +1154,15 @@
 			buildConfigurations = (
 				47BEF9D903506B003EA5C2B249729489 /* Debug */,
 				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53418F58ECD8302F3970F93C20D61BE5 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD5210992E255DD827A9266B21E02E4 /* Debug */,
+				186AC92579FAA8CFAC934F66678C9A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1170,29 +1176,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		565EC605ABC1A1374874BB3ACB5FA61F /* Build configuration list for PBXNativeTarget "Toast" */ = {
+		AB2141503478F656DFAAF202C104CD54 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCF2503BD651391CE38AB06B56E606AC /* Debug */,
-				9075ED79C85E46A06F6AEAC41064F719 /* Release */,
+				68167CDC59EEFE52EA2A777285D854FB /* Debug */,
+				D7F76D79DAEA19BE69B1BF096E266266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5978FD53452CA9ACB0F9BD627495BD56 /* Build configuration list for PBXNativeTarget "Pods-iEnglish" */ = {
+		BDEDCA4941E72E0A40ADA3967191A3CB /* Build configuration list for PBXNativeTarget "Pods-iEnglish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02CAC6792B1C2BB982B17BC1F42558B8 /* Debug */,
-				51BDD451EA930BE9CA7B64C120DE6DF7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E378186149FAB48E7C4A676BBD425223 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE6692027434388457450D9ED792A5C0 /* Debug */,
-				94C4D1C1E9DFBF8A5605800B07A1FF34 /* Release */,
+				547A85854C97449D3B848322A6C626BC /* Debug */,
+				FD6791B76FBC34CFC59282D4C645BA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1206,11 +1203,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB0267B09164C79A366750370F445626 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
+		F707151A130DB13F6C52AA70CC8348FC /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87F7E17BE1792FEA3B3D6902B22AD79C /* Debug */,
-				8EABAD287F4F2FAF41546DAD11792095 /* Release */,
+				D1BDCB4E5FBD6CE0A110E8EDBAC988A8 /* Debug */,
+				9B621F3930131F23A37D7E180221CE41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

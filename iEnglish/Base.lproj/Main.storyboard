@@ -41,6 +41,7 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hlw-Lv-OLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ulY-LF-wfE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="210" y="322"/>
         </scene>
@@ -515,9 +516,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="dgQ-jf-F5a" kind="unwind" unwindAction="unwindToMain:" id="cci-8h-PWr"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -528,10 +526,13 @@
                     <navigationItem key="navigationItem" title="加入播放列表" id="tvn-wI-ZHF">
                         <barButtonItem key="rightBarButtonItem" title="取消" id="xmh-OZ-oEC">
                             <connections>
-                                <segue destination="dgQ-jf-F5a" kind="unwind" unwindAction="unwindToMain:" id="Tyn-hL-hvV"/>
+                                <segue destination="dgQ-jf-F5a" kind="unwind" identifier="unwindCancel" unwindAction="unwindCancel:" id="FVM-o6-hRJ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="ulY-LF-wfE" kind="unwind" identifier="unwind" unwindAction="unwindToMain:" id="lOF-r7-jOq"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j9J-Is-ETx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

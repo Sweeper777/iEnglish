@@ -4,17 +4,17 @@ PODS:
     - SwiftyButton/CustomContent (= 0.4.0)
   - SwiftyButton/CustomContent (0.4.0):
     - PureLayout (~> 3.0)
-  - Toast (3.0)
+  - Toast-Swift (1.3.0)
 
 DEPENDENCIES:
   - SwiftyButton
-  - Toast
+  - Toast-Swift
 
 SPEC CHECKSUMS:
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
   SwiftyButton: fffcc0d82b2b5f9ec1681f20ee9c67bed0d5c73b
-  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+  Toast-Swift: 25c3d98db42dc70d9a77b5006ee000e0becb458e
 
-PODFILE CHECKSUM: 5e01418a6b44e819df8d951d193e7a2d70b221a5
+PODFILE CHECKSUM: 92b815f91ae4e5af2dd46f0c85cdc90e4771c342
 
 COCOAPODS: 1.0.0.rc.2
