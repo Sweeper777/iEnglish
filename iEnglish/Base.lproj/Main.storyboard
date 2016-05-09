@@ -16,6 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.23132071430000001" green="0.48063303969999999" blue="0.23132071430000001" alpha="1" colorSpace="deviceRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="myZ-c0-FCb" kind="relationship" relationship="viewControllers" id="od1-fo-ycZ"/>
@@ -35,6 +37,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="c0e-gD-1Zw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Gdj-Jj-mlP" kind="relationship" relationship="rootViewController" id="1Wk-PL-QDX"/>
@@ -52,7 +58,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" keyboardDismissMode="interactive" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="WNd-X4-kSN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection id="L0Z-pt-6FR">
                                 <cells>
@@ -67,6 +73,7 @@
                                                     <rect key="frame" x="8" y="1" width="584" height="253"/>
                                                 </imageView>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="aaz-Mz-IJr" firstAttribute="trailing" secondItem="0o2-zb-8CL" secondAttribute="trailingMargin" id="KBb-C5-5FE"/>
                                                 <constraint firstItem="aaz-Mz-IJr" firstAttribute="leading" secondItem="0o2-zb-8CL" secondAttribute="leadingMargin" id="Ylp-nW-7qH"/>
@@ -75,11 +82,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="CbU-Jm-dgm">
-                                        <rect key="frame" x="0.0" y="318" width="600" height="93"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="CbU-Jm-dgm">
+                                        <rect key="frame" x="0.0" y="318" width="600" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CbU-Jm-dgm" id="JYD-aI-WkI">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="93"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入要聆听的句子或词语" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="K7A-Nj-Umn">
@@ -87,26 +94,79 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
                                                 </textField>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVa-Dp-zSh">
-                                                    <rect key="frame" x="270" y="46" width="60" height="30"/>
-                                                    <state key="normal" title="读来听听"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVa-Dp-zSh" customClass="SwiftyButton" customModule="SwiftyButton">
+                                                    <rect key="frame" x="227" y="46" width="146" height="34"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="146" id="6RQ-UJ-gq3"/>
+                                                        <constraint firstAttribute="height" constant="34" id="Nid-eg-53w"/>
+                                                    </constraints>
+                                                    <state key="normal" title="读来听听">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                                            <color key="value" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                            <color key="value" red="0.23132071430000001" green="0.48063303969999999" blue="0.23132071430000001" alpha="1" colorSpace="deviceRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="highlightedColor">
+                                                            <color key="value" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowHeight">
+                                                            <real key="value" value="4"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="7"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="listen:" destination="Gdj-Jj-mlP" eventType="touchUpInside" id="4t5-SR-lyo"/>
                                                     </connections>
                                                 </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhD-3C-o1O" customClass="SwiftyButton" customModule="SwiftyButton">
+                                                    <rect key="frame" x="227" y="89" width="146" height="34"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="34" id="zA1-40-h0a"/>
+                                                    </constraints>
+                                                    <state key="normal" title="加入播放列表">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                                            <color key="value" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                            <color key="value" red="0.23132071430000001" green="0.48063303969999999" blue="0.23132071430000001" alpha="1" colorSpace="deviceRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="highlightedColor">
+                                                            <color key="value" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowHeight">
+                                                            <real key="value" value="4"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="7"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="addToPlaylist:" destination="Gdj-Jj-mlP" eventType="touchUpInside" id="lJv-7B-4yF"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstItem="K7A-Nj-Umn" firstAttribute="centerX" secondItem="nVa-Dp-zSh" secondAttribute="centerX" id="6jy-6f-fwa"/>
-                                                <constraint firstItem="nVa-Dp-zSh" firstAttribute="top" secondItem="K7A-Nj-Umn" secondAttribute="bottom" constant="8" symbolic="YES" id="CXo-B9-pZB"/>
+                                                <constraint firstItem="EhD-3C-o1O" firstAttribute="leading" secondItem="nVa-Dp-zSh" secondAttribute="leading" id="3sH-eU-Ni6"/>
                                                 <constraint firstItem="K7A-Nj-Umn" firstAttribute="top" secondItem="JYD-aI-WkI" secondAttribute="topMargin" id="LhQ-GW-Oct"/>
+                                                <constraint firstItem="nVa-Dp-zSh" firstAttribute="top" secondItem="K7A-Nj-Umn" secondAttribute="bottom" constant="8" symbolic="YES" id="NA0-Wa-ZGX"/>
+                                                <constraint firstItem="EhD-3C-o1O" firstAttribute="bottom" secondItem="JYD-aI-WkI" secondAttribute="bottomMargin" id="REf-6G-g8K"/>
                                                 <constraint firstItem="K7A-Nj-Umn" firstAttribute="trailing" secondItem="JYD-aI-WkI" secondAttribute="trailingMargin" constant="-12" id="hzU-ir-UMp"/>
+                                                <constraint firstItem="EhD-3C-o1O" firstAttribute="trailing" secondItem="nVa-Dp-zSh" secondAttribute="trailing" id="j0v-dY-Jpi"/>
+                                                <constraint firstItem="nVa-Dp-zSh" firstAttribute="centerX" secondItem="K7A-Nj-Umn" secondAttribute="centerX" id="kyb-r3-Jmz"/>
                                                 <constraint firstItem="K7A-Nj-Umn" firstAttribute="leading" secondItem="JYD-aI-WkI" secondAttribute="leadingMargin" constant="12" id="lxK-dx-oBI"/>
                                                 <constraint firstItem="K7A-Nj-Umn" firstAttribute="centerX" secondItem="JYD-aI-WkI" secondAttribute="centerX" id="xHT-9s-tMf"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="6MI-Xc-XpC" kind="presentation" identifier="addToPlaylist" modalPresentationStyle="formSheet" id="noj-Dr-Nah"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -116,16 +176,11 @@
                             <outlet property="delegate" destination="Gdj-Jj-mlP" id="OHq-FV-hut"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="聆听" id="TWX-bY-qGl">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="5OQ-Cg-quA">
-                            <connections>
-                                <action selector="addToPlaylist:" destination="Gdj-Jj-mlP" id="ETe-6u-eIP"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="聆听" id="TWX-bY-qGl"/>
                     <connections>
                         <outlet property="logo" destination="aaz-Mz-IJr" id="VYZ-9N-vlr"/>
                         <outlet property="textToListen" destination="K7A-Nj-Umn" id="Rdc-5l-SAg"/>
+                        <segue destination="6MI-Xc-XpC" kind="presentation" identifier="addToPlaylist" modalPresentationStyle="formSheet" id="czz-xi-hgt"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agt-rw-2QK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -140,7 +195,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="B0b-F9-Xn2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell1" id="LdZ-5o-vZX">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
@@ -148,6 +203,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LdZ-5o-vZX" id="IDo-iE-yiV">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="0hB-je-LK3" kind="show" identifier="showPlaylistDetail" id="wAw-fj-T6y"/>
@@ -162,11 +218,13 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="播放列表" id="QJc-XA-p7u">
                         <barButtonItem key="leftBarButtonItem" title="编辑" id="6IZ-9I-UWk">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="editTableView:" destination="QDf-Nc-6Db" id="Fy2-IY-ohh"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="VLh-ds-H2I">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="addPlaylist:" destination="QDf-Nc-6Db" id="ELS-A4-7QT"/>
                             </connections>
@@ -185,7 +243,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="f7g-1J-OGP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                         <connections>
                             <outlet property="dataSource" destination="0hB-je-LK3" id="c0x-Uh-p2m"/>
                             <outlet property="delegate" destination="0hB-je-LK3" id="sB7-16-z2a"/>
@@ -195,11 +253,13 @@
                     <navigationItem key="navigationItem" title="Title" id="i3M-P3-QPR">
                         <rightBarButtonItems>
                             <barButtonItem title="编辑" id="yGp-xt-mrm">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="editTableView:" destination="0hB-je-LK3" id="rXa-U3-fBK"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem image="play" id="Sjr-eg-uLH">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="playClick:" destination="0hB-je-LK3" id="amr-bS-UZW"/>
                                 </connections>
@@ -222,6 +282,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HUc-Im-c8B">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="EUg-2k-4jx" kind="relationship" relationship="rootViewController" id="Vqs-sJ-ZMj"/>
@@ -238,7 +302,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="vvL-vC-guc">
                         <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.59607843140000005" green="0.89411764709999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="语速" id="OC9-bg-Y0d">
                                 <cells>
@@ -266,11 +330,13 @@
                                                 </label>
                                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="yqo-Wr-Lq6">
                                                     <rect key="frame" x="34" y="35" width="532" height="31"/>
+                                                    <color key="minimumTrackTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
                                                         <action selector="rateChanged:" destination="EUg-2k-4jx" eventType="valueChanged" id="Xrl-c9-AxA"/>
                                                     </connections>
                                                 </slider>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="P4f-BT-f3R" firstAttribute="leading" secondItem="yqo-Wr-Lq6" secondAttribute="trailing" constant="8" symbolic="YES" id="2ea-DN-d8f"/>
                                                 <constraint firstItem="i5v-wV-Nse" firstAttribute="top" secondItem="y0C-Tf-MEh" secondAttribute="topMargin" constant="31" id="5NI-fD-isk"/>
@@ -313,11 +379,13 @@
                                                 </label>
                                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="27e-K3-vKY">
                                                     <rect key="frame" x="36" y="34" width="528" height="31"/>
+                                                    <color key="minimumTrackTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
                                                         <action selector="pitchChanged:" destination="EUg-2k-4jx" eventType="valueChanged" id="xuH-Yb-AJ2"/>
                                                     </connections>
                                                 </slider>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="27e-K3-vKY" firstAttribute="centerX" secondItem="AnC-Nh-v8C" secondAttribute="centerX" id="PJN-iB-rh0"/>
                                                 <constraint firstItem="27e-K3-vKY" firstAttribute="leading" secondItem="Ill-Hz-xxx" secondAttribute="trailing" constant="8" symbolic="YES" id="PV4-lJ-dWa"/>
@@ -360,11 +428,13 @@
                                                 </label>
                                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KiU-w7-LcD">
                                                     <rect key="frame" x="36" y="35" width="528" height="31"/>
+                                                    <color key="minimumTrackTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <connections>
                                                         <action selector="volumeChanged:" destination="EUg-2k-4jx" eventType="valueChanged" id="nhi-WO-1vk"/>
                                                     </connections>
                                                 </slider>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="CDR-kz-Ycz" firstAttribute="leading" secondItem="vwu-6D-2Jw" secondAttribute="leadingMargin" id="2Sz-sP-KQG"/>
                                                 <constraint firstItem="lIJ-LN-KBj" firstAttribute="baseline" secondItem="CDR-kz-Ycz" secondAttribute="baseline" id="Dju-oj-i6f"/>
@@ -399,11 +469,13 @@
                                                         <segment title="英式英语"/>
                                                         <segment title="美式英语"/>
                                                     </segments>
+                                                    <color key="tintColor" red="0.23132071430000001" green="0.48063303969999999" blue="0.23132071430000001" alpha="1" colorSpace="deviceRGB"/>
                                                     <connections>
                                                         <action selector="voiceChanged:" destination="EUg-2k-4jx" eventType="valueChanged" id="Jdc-qc-gu1"/>
                                                     </connections>
                                                 </segmentedControl>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="qFa-Xy-kJ9" firstAttribute="centerX" secondItem="uO2-IA-H3A" secondAttribute="centerX" id="Llv-AR-dxl"/>
                                                 <constraint firstItem="qFa-Xy-kJ9" firstAttribute="centerY" secondItem="uO2-IA-H3A" secondAttribute="centerY" id="Ngf-jy-wcB"/>
@@ -421,18 +493,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X3V-V1-hPD">
-                                                    <rect key="frame" x="543" y="6" width="51" height="31"/>
-                                                    <connections>
-                                                        <action selector="repeatingChanged:" destination="EUg-2k-4jx" eventType="valueChanged" id="kjk-xt-cQc"/>
-                                                    </connections>
-                                                </switch>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="循环播放列表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuA-gM-Em5">
                                                     <rect key="frame" x="8" y="14" width="102" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X3V-V1-hPD">
+                                                    <rect key="frame" x="543" y="6" width="51" height="31"/>
+                                                    <color key="onTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <action selector="repeatingChanged:" destination="EUg-2k-4jx" eventType="valueChanged" id="kjk-xt-cQc"/>
+                                                    </connections>
+                                                </switch>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="RuA-gM-Em5" firstAttribute="leading" secondItem="Vs6-uI-qzp" secondAttribute="leadingMargin" id="HJs-vQ-hvc"/>
@@ -442,6 +515,7 @@
                                                 <constraint firstItem="RuA-gM-Em5" firstAttribute="top" secondItem="Vs6-uI-qzp" secondAttribute="topMargin" constant="6" id="d2q-YH-nXl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.79215686269999996" green="1" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -475,6 +549,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sIF-ws-iux">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="QDf-Nc-6Db" kind="relationship" relationship="rootViewController" id="LyQ-FR-AOk"/>
@@ -491,6 +569,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3XL-9z-OHa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="wHR-ob-Mda" kind="relationship" relationship="rootViewController" id="vnF-t9-keP"/>
@@ -525,6 +607,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="加入播放列表" id="tvn-wI-ZHF">
                         <barButtonItem key="rightBarButtonItem" title="取消" id="xmh-OZ-oEC">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="dgQ-jf-F5a" kind="unwind" identifier="unwindCancel" unwindAction="unwindCancel:" id="FVM-o6-hRJ"/>
                             </connections>

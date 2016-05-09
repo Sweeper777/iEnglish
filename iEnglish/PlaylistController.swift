@@ -65,6 +65,8 @@ class PlaylistController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell1") ?? UITableViewCell()
         cell.textLabel?.text = playlists[indexPath.row].name
+        cell.textLabel?.backgroundColor = UIColor(red: 0xca / 0xff, green: 1, blue: 0xc7 / 0xff, alpha: 1)
+        cell.editingAccessoryView?.backgroundColor = UIColor(red: 0xca / 0xff, green: 1, blue: 0xc7 / 0xff, alpha: 1)
         return cell
     }
     

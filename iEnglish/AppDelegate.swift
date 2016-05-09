@@ -9,6 +9,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        window?.tintColor = UIColor(red: 0x5a / 0xff, green: 0xbb / 0xff, blue: 0x5a / 0xff, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        
         ToastManager.shared.queueEnabled = false
         ToastManager.shared.tapToDismissEnabled = true
         return true

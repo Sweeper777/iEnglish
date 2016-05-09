@@ -68,6 +68,9 @@ class UtteranceListController: UITableViewController, AVSpeechSynthesizerDelegat
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = playlist.utterrances![indexPath.row].string
+        cell.textLabel?.backgroundColor = UIColor(red: 0xca / 0xff, green: 1, blue: 0xc7 / 0xff, alpha: 1)
+        cell.contentView.backgroundColor = UIColor(red: 0xca / 0xff, green: 1, blue: 0xc7 / 0xff, alpha: 1)
+        cell.editingAccessoryView?.backgroundColor = UIColor(red: 0xca / 0xff, green: 1, blue: 0xc7 / 0xff, alpha: 1)
         return cell
     }
     

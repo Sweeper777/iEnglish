@@ -13,7 +13,7 @@ class ListenViewController: UITableViewController, UITextFieldDelegate {
         textToListen.delegate = self
     }
     
-    @IBAction func addToPlaylist(sender: UIBarButtonItem) {
+    @IBAction func addToPlaylist(sender: UIButton) {
         if textToListen.text == nil || textToListen.text!.isEmpty {
             let alert = UIAlertController(title: NSLocalizedString("加入播放列表失败", comment:""), message: NSLocalizedString("请在加入播放列表前先输入文字", comment: ""), preferredStyle: .Alert)
             alert.addAction(UIAlertAction(title: NSLocalizedString("确定", comment: ""), style: .Default, handler: nil))
